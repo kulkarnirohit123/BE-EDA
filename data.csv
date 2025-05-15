@@ -1,0 +1,1001 @@
+customer_id,age,gender,tenure,monthly_charges,contract_type,payment_method,churn
+CUST0001,56,Male,17,149.86,One year,Credit card,No
+CUST0002,69,Male,50,45.43,One year,Bank transfer,No
+CUST0003,46,Male,40,58.16,Month-to-month,Cash,No
+CUST0004,32,Female,45,167.37,Month-to-month,Cash,No
+CUST0005,60,Male,32,78.06,Two year,Credit card,No
+CUST0006,25,Male,29,24.12,Two year,Bank transfer,No
+CUST0007,38,Male,51,47.68,Month-to-month,Bank transfer,No
+CUST0008,56,Female,58,60.25,Month-to-month,Cash,No
+CUST0009,36,Female,3,192.32,Month-to-month,Credit card,Yes
+CUST0010,40,Male,56,123.15,One year,Bank transfer,No
+CUST0011,28,Male,40,187.89,One year,Cash,No
+CUST0012,28,Male,34,123.53,One year,PayPal,No
+CUST0013,41,Male,40,106.28,Month-to-month,Credit card,Yes
+CUST0014,53,Female,27,76.47,Two year,PayPal,No
+CUST0015,57,Female,13,129.15,Month-to-month,Credit card,No
+CUST0016,41,Female,45,45.06,One year,Cash,Yes
+CUST0017,20,Female,33,181.69,One year,Bank transfer,No
+CUST0018,39,Male,6,169.28,Month-to-month,Bank transfer,No
+CUST0019,19,Male,24,77.16,Month-to-month,Bank transfer,No
+CUST0020,41,Male,19,191.5,One year,Credit card,No
+CUST0021,61,Female,16,168.54,One year,Cash,Yes
+CUST0022,47,Male,40,139.94,One year,PayPal,No
+CUST0023,55,Female,28,41.92,Month-to-month,Cash,Yes
+CUST0024,19,Female,33,106.08,One year,PayPal,No
+CUST0025,38,Male,59,111.1,One year,Credit card,No
+CUST0026,50,Male,59,61.86,Two year,Credit card,No
+CUST0027,29,Male,48,34.39,Month-to-month,PayPal,Yes
+CUST0028,39,Female,41,159.81,Two year,PayPal,No
+CUST0029,61,Male,13,41.97,Two year,PayPal,No
+CUST0030,42,Female,43,126.97,One year,Cash,No
+CUST0031,66,Male,45,188.56,Month-to-month,PayPal,No
+CUST0032,44,Female,25,177.7,One year,Credit card,No
+CUST0033,59,Female,53,70.0,Month-to-month,Credit card,No
+CUST0034,45,Male,42,173.26,Two year,Bank transfer,No
+CUST0035,33,Female,36,20.06,Month-to-month,PayPal,No
+CUST0036,32,Female,27,23.18,One year,Cash,Yes
+CUST0037,64,Male,38,128.46,One year,Cash,No
+CUST0038,68,Female,7,85.66,One year,Cash,No
+CUST0039,61,Male,5,89.56,Month-to-month,Bank transfer,No
+CUST0040,69,Female,43,121.6,Two year,Credit card,No
+CUST0041,20,Male,45,54.52,Two year,Cash,Yes
+CUST0042,54,Male,58,58.12,Month-to-month,Credit card,No
+CUST0043,68,Female,57,107.23,One year,Bank transfer,Yes
+CUST0044,24,Female,51,155.77,Two year,PayPal,Yes
+CUST0045,38,Female,31,131.51,One year,PayPal,No
+CUST0046,26,Female,23,73.52,Month-to-month,PayPal,Yes
+CUST0047,56,Female,42,97.46,One year,Cash,No
+CUST0048,35,Male,10,50.72,Two year,PayPal,Yes
+CUST0049,21,Female,32,33.43,Two year,Cash,No
+CUST0050,42,Male,43,160.89,One year,Bank transfer,No
+CUST0051,31,Male,53,67.77,Month-to-month,Bank transfer,No
+CUST0052,67,Female,30,52.0,One year,Cash,No
+CUST0053,26,Male,39,144.49,Month-to-month,Credit card,No
+CUST0054,43,Male,31,131.25,One year,PayPal,No
+CUST0055,19,Male,18,133.97,Two year,PayPal,No
+CUST0056,37,Male,36,61.2,Month-to-month,PayPal,No
+CUST0057,45,Female,2,61.88,Month-to-month,Cash,No
+CUST0058,64,Male,14,59.74,Month-to-month,Bank transfer,No
+CUST0059,24,Female,13,51.28,Two year,PayPal,No
+CUST0060,61,Female,29,138.03,One year,Bank transfer,No
+CUST0061,25,Male,12,172.64,Two year,PayPal,No
+CUST0062,64,Female,39,150.38,Month-to-month,PayPal,No
+CUST0063,52,Female,2,162.58,One year,Cash,No
+CUST0064,31,Female,32,92.86,Two year,Credit card,No
+CUST0065,34,Male,13,137.73,Month-to-month,Cash,No
+CUST0066,53,Female,46,83.76,Month-to-month,PayPal,No
+CUST0067,67,Female,27,114.59,Two year,PayPal,No
+CUST0068,57,Female,49,106.69,Two year,Credit card,Yes
+CUST0069,21,Male,41,51.84,Two year,Bank transfer,No
+CUST0070,19,Female,17,89.67,Month-to-month,Bank transfer,No
+CUST0071,23,Male,40,193.49,Two year,PayPal,No
+CUST0072,59,Male,31,64.74,Month-to-month,Bank transfer,No
+CUST0073,21,Male,34,44.08,Two year,PayPal,No
+CUST0074,46,Male,24,95.34,Month-to-month,Credit card,No
+CUST0075,35,Male,45,162.26,Month-to-month,Credit card,No
+CUST0076,43,Male,35,124.79,One year,PayPal,No
+CUST0077,61,Female,48,142.58,Two year,Credit card,No
+CUST0078,51,Male,6,54.15,Two year,Cash,No
+CUST0079,27,Female,19,131.41,Month-to-month,Cash,No
+CUST0080,53,Female,30,78.23,Month-to-month,Credit card,No
+CUST0081,31,Male,7,170.17,Month-to-month,PayPal,No
+CUST0082,48,Female,10,133.27,One year,PayPal,Yes
+CUST0083,65,Female,41,55.79,One year,Credit card,No
+CUST0084,32,Female,32,31.63,Month-to-month,Bank transfer,Yes
+CUST0085,25,Female,34,27.67,Two year,Cash,No
+CUST0086,31,Male,28,86.85,Two year,Bank transfer,No
+CUST0087,40,Female,15,67.85,One year,PayPal,No
+CUST0088,57,Male,30,136.3,One year,PayPal,No
+CUST0089,38,Female,37,109.88,Month-to-month,Bank transfer,No
+CUST0090,33,Female,29,67.88,Two year,Credit card,No
+CUST0091,62,Male,22,46.86,Month-to-month,Bank transfer,No
+CUST0092,35,Female,4,42.9,One year,Bank transfer,No
+CUST0093,64,Female,20,175.64,Two year,Cash,No
+CUST0094,41,Female,32,63.83,Two year,Cash,No
+CUST0095,43,Male,36,137.31,One year,Bank transfer,No
+CUST0096,42,Female,50,165.92,Month-to-month,Bank transfer,No
+CUST0097,62,Male,4,130.53,Month-to-month,PayPal,Yes
+CUST0098,58,Female,27,174.72,Two year,Cash,No
+CUST0099,46,Male,17,90.63,One year,Cash,No
+CUST0100,32,Male,12,192.12,Two year,PayPal,No
+CUST0101,62,Female,22,43.97,One year,Credit card,Yes
+CUST0102,18,Female,17,38.39,Month-to-month,Cash,No
+CUST0103,42,Male,10,138.56,One year,Cash,Yes
+CUST0104,24,Male,54,189.71,Month-to-month,Credit card,No
+CUST0105,26,Female,1,165.6,One year,Cash,No
+CUST0106,41,Male,22,33.76,Two year,Cash,No
+CUST0107,18,Female,26,70.29,Month-to-month,Credit card,No
+CUST0108,61,Female,56,187.46,Two year,Credit card,No
+CUST0109,25,Female,59,65.55,Two year,Bank transfer,Yes
+CUST0110,41,Female,18,160.61,Month-to-month,PayPal,Yes
+CUST0111,28,Male,50,168.52,Month-to-month,PayPal,No
+CUST0112,68,Female,14,109.18,Two year,Credit card,No
+CUST0113,34,Male,47,89.54,Two year,Credit card,No
+CUST0114,25,Female,29,101.02,Two year,Cash,Yes
+CUST0115,52,Male,12,60.85,Two year,Bank transfer,No
+CUST0116,52,Female,36,180.09,Month-to-month,Bank transfer,Yes
+CUST0117,50,Male,59,101.11,Month-to-month,Credit card,Yes
+CUST0118,22,Male,35,178.84,Two year,Cash,No
+CUST0119,59,Female,52,39.02,One year,Cash,No
+CUST0120,56,Female,12,197.89,One year,PayPal,Yes
+CUST0121,58,Female,7,99.79,Month-to-month,PayPal,No
+CUST0122,45,Female,29,28.61,Two year,Cash,Yes
+CUST0123,24,Male,11,26.84,Two year,PayPal,No
+CUST0124,26,Female,33,154.32,Month-to-month,Credit card,No
+CUST0125,25,Male,6,138.63,One year,Cash,Yes
+CUST0126,29,Male,47,164.38,One year,PayPal,No
+CUST0127,51,Female,15,38.97,One year,Bank transfer,No
+CUST0128,50,Male,32,26.4,Month-to-month,Cash,No
+CUST0129,65,Male,51,111.54,One year,Cash,No
+CUST0130,40,Male,11,89.77,Month-to-month,Bank transfer,Yes
+CUST0131,41,Male,58,103.15,Month-to-month,Credit card,Yes
+CUST0132,54,Female,23,198.49,Two year,Bank transfer,No
+CUST0133,52,Female,26,194.73,One year,Cash,No
+CUST0134,61,Female,34,189.62,Month-to-month,Credit card,Yes
+CUST0135,57,Female,46,161.09,One year,PayPal,No
+CUST0136,39,Male,34,83.87,One year,PayPal,Yes
+CUST0137,44,Male,29,94.18,Two year,PayPal,No
+CUST0138,52,Female,4,118.93,One year,Cash,No
+CUST0139,18,Female,17,169.5,Two year,Bank transfer,Yes
+CUST0140,52,Female,35,32.37,Month-to-month,Credit card,No
+CUST0141,54,Male,13,96.37,One year,PayPal,No
+CUST0142,64,Female,41,34.87,Month-to-month,Credit card,No
+CUST0143,31,Female,39,112.64,One year,Cash,No
+CUST0144,20,Female,15,181.8,Month-to-month,PayPal,No
+CUST0145,18,Male,55,160.85,One year,Cash,No
+CUST0146,22,Male,29,61.01,One year,Bank transfer,No
+CUST0147,43,Male,29,195.68,One year,Cash,No
+CUST0148,31,Male,11,140.12,One year,Cash,No
+CUST0149,56,Male,52,21.88,One year,Bank transfer,No
+CUST0150,44,Male,32,65.97,One year,Credit card,Yes
+CUST0151,26,Male,2,66.93,One year,Bank transfer,No
+CUST0152,32,Male,47,32.47,One year,Bank transfer,No
+CUST0153,32,Female,14,192.77,One year,Cash,No
+CUST0154,43,Female,20,106.09,Month-to-month,Credit card,No
+CUST0155,59,Male,22,181.25,Two year,PayPal,No
+CUST0156,30,Male,11,78.0,One year,Bank transfer,No
+CUST0157,68,Female,27,42.54,Two year,Credit card,No
+CUST0158,49,Male,3,105.38,One year,Bank transfer,Yes
+CUST0159,56,Male,17,40.51,One year,Bank transfer,No
+CUST0160,66,Male,44,107.48,Month-to-month,Bank transfer,No
+CUST0161,69,Female,56,185.65,Month-to-month,Bank transfer,No
+CUST0162,49,Female,28,113.74,Two year,Cash,Yes
+CUST0163,21,Female,29,130.97,Month-to-month,Credit card,No
+CUST0164,47,Female,21,48.19,Month-to-month,Credit card,No
+CUST0165,54,Female,47,27.87,Two year,Credit card,Yes
+CUST0166,40,Male,16,39.95,Month-to-month,Bank transfer,No
+CUST0167,56,Female,37,127.74,One year,Cash,No
+CUST0168,62,Male,59,37.1,Two year,Bank transfer,No
+CUST0169,32,Male,20,87.68,Two year,Bank transfer,No
+CUST0170,60,Female,6,119.02,One year,Credit card,No
+CUST0171,46,Female,19,89.96,Month-to-month,Bank transfer,Yes
+CUST0172,53,Male,57,49.46,Two year,PayPal,No
+CUST0173,30,Male,5,69.28,Two year,Bank transfer,No
+CUST0174,49,Male,3,187.1,One year,PayPal,No
+CUST0175,24,Female,59,141.68,One year,Bank transfer,Yes
+CUST0176,68,Female,1,109.29,Month-to-month,Cash,Yes
+CUST0177,39,Female,58,22.29,Two year,Cash,No
+CUST0178,45,Female,38,198.63,Month-to-month,Credit card,No
+CUST0179,19,Female,15,140.86,Month-to-month,Bank transfer,No
+CUST0180,59,Male,34,77.05,One year,PayPal,No
+CUST0181,62,Female,35,178.27,Two year,PayPal,Yes
+CUST0182,23,Male,49,66.52,Two year,Bank transfer,Yes
+CUST0183,45,Male,25,117.92,Two year,PayPal,No
+CUST0184,45,Male,24,134.49,One year,Cash,No
+CUST0185,61,Female,12,59.79,One year,PayPal,Yes
+CUST0186,61,Female,18,196.11,One year,Credit card,No
+CUST0187,37,Female,15,154.67,One year,Cash,No
+CUST0188,47,Male,44,120.41,One year,Cash,No
+CUST0189,28,Male,16,52.51,Two year,Cash,No
+CUST0190,45,Male,27,29.69,Month-to-month,Bank transfer,No
+CUST0191,42,Male,8,77.61,Two year,Bank transfer,No
+CUST0192,56,Male,46,155.57,Month-to-month,Cash,No
+CUST0193,50,Male,25,68.48,One year,Bank transfer,No
+CUST0194,18,Female,17,117.12,Month-to-month,PayPal,No
+CUST0195,44,Female,29,151.03,Two year,Bank transfer,No
+CUST0196,69,Female,53,39.43,Two year,Bank transfer,No
+CUST0197,30,Female,8,143.35,Month-to-month,Cash,No
+CUST0198,58,Male,15,36.54,One year,Credit card,No
+CUST0199,20,Male,27,193.72,One year,Credit card,Yes
+CUST0200,56,Female,46,107.91,Two year,Credit card,No
+CUST0201,23,Male,50,47.12,Month-to-month,PayPal,No
+CUST0202,25,Female,52,81.63,One year,Bank transfer,No
+CUST0203,44,Female,7,94.41,One year,Credit card,No
+CUST0204,26,Female,3,156.47,Two year,Cash,Yes
+CUST0205,54,Male,29,153.82,One year,Credit card,No
+CUST0206,50,Female,44,130.15,Month-to-month,Credit card,Yes
+CUST0207,68,Female,53,39.07,Two year,Bank transfer,No
+CUST0208,59,Female,24,47.28,Two year,Bank transfer,No
+CUST0209,61,Male,58,36.88,Month-to-month,Bank transfer,No
+CUST0210,41,Male,3,123.89,Two year,PayPal,No
+CUST0211,32,Female,20,177.88,One year,PayPal,No
+CUST0212,49,Male,46,98.08,One year,Credit card,No
+CUST0213,49,Male,15,48.95,Month-to-month,Bank transfer,No
+CUST0214,41,Male,25,120.45,One year,Credit card,No
+CUST0215,58,Male,30,166.12,Month-to-month,Cash,No
+CUST0216,69,Male,14,153.51,Month-to-month,Cash,No
+CUST0217,66,Male,7,178.66,One year,Bank transfer,No
+CUST0218,66,Male,17,70.02,Month-to-month,Bank transfer,No
+CUST0219,69,Male,44,54.91,One year,Cash,No
+CUST0220,29,Male,20,178.37,Two year,Bank transfer,No
+CUST0221,56,Male,36,138.36,Two year,PayPal,No
+CUST0222,19,Female,9,75.97,Month-to-month,PayPal,No
+CUST0223,20,Female,38,153.62,One year,Bank transfer,No
+CUST0224,66,Male,48,166.72,One year,Cash,No
+CUST0225,54,Female,57,130.7,Two year,Credit card,No
+CUST0226,66,Female,22,143.82,Two year,Bank transfer,No
+CUST0227,34,Male,54,87.55,One year,Bank transfer,Yes
+CUST0228,66,Male,53,116.97,Month-to-month,Credit card,No
+CUST0229,19,Male,53,114.35,Two year,Bank transfer,Yes
+CUST0230,19,Female,2,172.65,Month-to-month,Credit card,No
+CUST0231,45,Female,24,171.19,Month-to-month,Cash,No
+CUST0232,40,Male,8,169.88,Two year,PayPal,No
+CUST0233,54,Male,11,21.99,Month-to-month,Cash,No
+CUST0234,49,Male,13,154.92,Month-to-month,PayPal,No
+CUST0235,50,Female,17,156.56,One year,Credit card,No
+CUST0236,18,Female,8,142.11,Month-to-month,PayPal,No
+CUST0237,36,Female,21,156.13,One year,Cash,Yes
+CUST0238,19,Female,18,171.55,Two year,PayPal,Yes
+CUST0239,61,Male,30,104.66,Two year,Credit card,No
+CUST0240,43,Male,18,110.37,One year,PayPal,No
+CUST0241,49,Male,46,42.45,Two year,Bank transfer,No
+CUST0242,23,Male,47,89.37,Month-to-month,Cash,No
+CUST0243,49,Female,31,135.81,Month-to-month,Bank transfer,No
+CUST0244,21,Female,38,160.47,Month-to-month,Credit card,No
+CUST0245,28,Male,32,59.1,Two year,PayPal,No
+CUST0246,34,Male,11,44.81,Month-to-month,Bank transfer,No
+CUST0247,55,Female,45,139.35,Two year,Bank transfer,No
+CUST0248,41,Male,25,20.34,Month-to-month,PayPal,No
+CUST0249,22,Female,33,52.11,One year,PayPal,No
+CUST0250,69,Male,38,25.23,Two year,Cash,No
+CUST0251,51,Male,41,50.04,Two year,Bank transfer,No
+CUST0252,23,Male,8,52.64,Month-to-month,Bank transfer,No
+CUST0253,39,Male,11,89.78,Two year,Credit card,No
+CUST0254,28,Male,22,92.42,Two year,Cash,No
+CUST0255,65,Male,51,177.37,One year,Credit card,No
+CUST0256,33,Male,24,111.82,One year,Bank transfer,No
+CUST0257,50,Female,41,150.21,Month-to-month,Credit card,Yes
+CUST0258,26,Female,17,38.74,One year,Bank transfer,Yes
+CUST0259,23,Female,12,60.58,Month-to-month,Bank transfer,No
+CUST0260,33,Female,57,146.53,Month-to-month,Credit card,No
+CUST0261,46,Female,46,29.5,Month-to-month,Credit card,Yes
+CUST0262,20,Male,32,107.59,Two year,PayPal,No
+CUST0263,37,Male,15,127.89,One year,PayPal,No
+CUST0264,53,Female,16,128.39,Month-to-month,PayPal,No
+CUST0265,36,Male,54,24.13,One year,Bank transfer,No
+CUST0266,43,Female,22,77.98,Month-to-month,Credit card,No
+CUST0267,20,Female,28,134.57,One year,Cash,No
+CUST0268,36,Male,20,46.82,One year,Bank transfer,Yes
+CUST0269,37,Male,33,145.17,Month-to-month,Cash,Yes
+CUST0270,49,Male,10,154.27,Two year,Credit card,No
+CUST0271,24,Female,40,196.75,One year,Bank transfer,Yes
+CUST0272,69,Male,32,57.77,Two year,Cash,No
+CUST0273,58,Female,50,168.52,Two year,Cash,No
+CUST0274,50,Female,33,113.65,Month-to-month,PayPal,No
+CUST0275,57,Female,2,87.22,Month-to-month,PayPal,Yes
+CUST0276,56,Male,33,42.03,Month-to-month,PayPal,No
+CUST0277,35,Male,33,152.39,One year,Bank transfer,No
+CUST0278,57,Female,41,62.45,Month-to-month,Credit card,No
+CUST0279,18,Male,13,86.86,Month-to-month,Credit card,Yes
+CUST0280,28,Male,30,31.26,One year,PayPal,No
+CUST0281,45,Male,33,164.25,One year,PayPal,No
+CUST0282,42,Female,13,157.99,Month-to-month,PayPal,No
+CUST0283,67,Female,52,152.05,Month-to-month,Cash,No
+CUST0284,40,Male,26,73.9,Month-to-month,PayPal,Yes
+CUST0285,48,Female,22,51.23,Month-to-month,Cash,Yes
+CUST0286,47,Male,39,134.76,Two year,Credit card,No
+CUST0287,59,Male,2,109.31,Two year,Bank transfer,No
+CUST0288,52,Male,38,52.09,Month-to-month,Bank transfer,No
+CUST0289,24,Male,39,143.46,Two year,Bank transfer,No
+CUST0290,33,Female,26,198.4,One year,Bank transfer,Yes
+CUST0291,43,Female,46,154.5,Two year,Cash,No
+CUST0292,65,Female,58,153.2,Two year,Cash,No
+CUST0293,69,Male,50,191.06,Month-to-month,PayPal,No
+CUST0294,66,Male,15,56.53,Two year,Cash,No
+CUST0295,19,Male,34,121.8,Two year,PayPal,No
+CUST0296,18,Female,42,196.34,Two year,PayPal,No
+CUST0297,65,Male,55,49.75,Two year,Bank transfer,No
+CUST0298,29,Female,44,146.05,One year,Cash,No
+CUST0299,22,Female,49,125.45,Month-to-month,Cash,No
+CUST0300,54,Female,40,125.57,Month-to-month,PayPal,No
+CUST0301,49,Female,11,145.58,One year,PayPal,Yes
+CUST0302,26,Female,3,187.33,Two year,Credit card,No
+CUST0303,58,Female,59,160.86,One year,Credit card,No
+CUST0304,52,Male,6,30.1,Two year,PayPal,No
+CUST0305,36,Male,9,173.49,One year,Credit card,No
+CUST0306,65,Female,6,60.6,Month-to-month,Credit card,No
+CUST0307,33,Female,9,87.84,Month-to-month,PayPal,Yes
+CUST0308,20,Male,39,103.11,Month-to-month,PayPal,No
+CUST0309,37,Female,31,106.56,Two year,Cash,No
+CUST0310,41,Female,32,98.33,Two year,PayPal,No
+CUST0311,50,Male,41,188.72,One year,PayPal,No
+CUST0312,41,Female,50,147.08,One year,Bank transfer,No
+CUST0313,69,Female,12,133.61,Month-to-month,Cash,Yes
+CUST0314,28,Female,8,28.97,Two year,Cash,Yes
+CUST0315,66,Male,8,182.7,One year,Cash,No
+CUST0316,25,Male,50,183.69,Two year,Bank transfer,No
+CUST0317,53,Male,28,160.44,Two year,PayPal,No
+CUST0318,55,Female,20,21.27,Month-to-month,Cash,Yes
+CUST0319,57,Female,47,30.31,Month-to-month,Cash,No
+CUST0320,37,Male,59,60.54,Two year,Credit card,No
+CUST0321,52,Female,7,43.64,Two year,Cash,No
+CUST0322,65,Female,11,91.79,Two year,PayPal,Yes
+CUST0323,42,Female,20,186.07,Two year,PayPal,Yes
+CUST0324,52,Female,16,104.97,Month-to-month,Credit card,No
+CUST0325,42,Female,4,22.41,One year,Cash,No
+CUST0326,46,Male,6,70.89,Month-to-month,Cash,No
+CUST0327,35,Female,58,28.03,One year,Cash,Yes
+CUST0328,63,Male,22,26.53,Two year,Bank transfer,No
+CUST0329,35,Female,26,69.63,One year,Cash,No
+CUST0330,19,Male,3,69.61,Month-to-month,PayPal,No
+CUST0331,52,Female,41,161.68,Month-to-month,PayPal,No
+CUST0332,33,Male,42,195.47,Two year,Bank transfer,No
+CUST0333,58,Female,14,86.82,Month-to-month,Bank transfer,Yes
+CUST0334,53,Male,11,97.2,Two year,Cash,No
+CUST0335,50,Female,18,172.06,Month-to-month,Credit card,No
+CUST0336,21,Male,54,68.27,Month-to-month,Bank transfer,No
+CUST0337,50,Female,12,48.15,Two year,Bank transfer,No
+CUST0338,31,Male,23,173.56,One year,Cash,No
+CUST0339,38,Male,12,28.37,Month-to-month,Cash,Yes
+CUST0340,65,Female,13,131.55,One year,Bank transfer,No
+CUST0341,37,Female,25,121.16,Month-to-month,Credit card,Yes
+CUST0342,25,Male,45,82.27,Month-to-month,Bank transfer,Yes
+CUST0343,24,Female,51,76.73,Month-to-month,Cash,No
+CUST0344,20,Male,58,158.93,Month-to-month,Cash,No
+CUST0345,34,Male,19,35.56,One year,Bank transfer,No
+CUST0346,50,Male,55,62.62,One year,Credit card,No
+CUST0347,65,Female,46,151.84,Month-to-month,Bank transfer,No
+CUST0348,29,Male,36,118.7,Month-to-month,Bank transfer,No
+CUST0349,68,Male,45,43.04,One year,Cash,No
+CUST0350,39,Female,8,178.78,Two year,Credit card,No
+CUST0351,39,Female,29,90.82,Two year,PayPal,No
+CUST0352,63,Female,55,169.02,One year,Credit card,No
+CUST0353,47,Female,53,161.79,Month-to-month,Bank transfer,No
+CUST0354,55,Male,55,132.4,Month-to-month,Bank transfer,No
+CUST0355,55,Male,32,109.01,Two year,Bank transfer,No
+CUST0356,62,Male,51,196.32,Two year,Credit card,Yes
+CUST0357,68,Male,44,46.09,One year,Cash,No
+CUST0358,25,Female,18,150.53,Two year,Bank transfer,Yes
+CUST0359,44,Male,6,54.41,One year,Bank transfer,No
+CUST0360,44,Male,18,80.89,Two year,Credit card,No
+CUST0361,51,Female,19,75.57,Two year,PayPal,No
+CUST0362,38,Male,22,190.47,Two year,PayPal,No
+CUST0363,47,Male,37,194.12,Month-to-month,Cash,No
+CUST0364,50,Male,32,52.94,Month-to-month,Cash,No
+CUST0365,45,Male,56,23.97,Month-to-month,Bank transfer,No
+CUST0366,64,Male,41,149.6,Two year,Credit card,No
+CUST0367,50,Male,59,95.24,One year,Bank transfer,Yes
+CUST0368,22,Female,3,35.99,One year,Cash,Yes
+CUST0369,65,Female,28,143.08,One year,Credit card,No
+CUST0370,36,Male,10,118.12,One year,Credit card,No
+CUST0371,21,Male,51,196.49,Month-to-month,Cash,No
+CUST0372,52,Female,35,60.93,Month-to-month,PayPal,No
+CUST0373,66,Male,29,92.72,Two year,PayPal,Yes
+CUST0374,34,Male,54,117.66,Two year,Credit card,Yes
+CUST0375,61,Male,15,162.51,One year,Bank transfer,No
+CUST0376,45,Female,33,118.79,Month-to-month,PayPal,Yes
+CUST0377,47,Male,7,130.32,One year,Bank transfer,No
+CUST0378,46,Female,12,60.71,Two year,PayPal,No
+CUST0379,63,Male,49,172.45,Two year,PayPal,No
+CUST0380,23,Female,30,97.15,One year,Bank transfer,Yes
+CUST0381,52,Female,21,45.37,Two year,Cash,Yes
+CUST0382,58,Male,31,139.55,One year,PayPal,Yes
+CUST0383,54,Female,58,58.9,Month-to-month,PayPal,No
+CUST0384,41,Male,24,37.56,One year,Bank transfer,No
+CUST0385,46,Female,20,175.16,Month-to-month,Cash,No
+CUST0386,66,Male,37,102.83,Month-to-month,PayPal,No
+CUST0387,63,Male,4,154.87,Two year,PayPal,No
+CUST0388,48,Female,28,72.31,Two year,Cash,Yes
+CUST0389,52,Male,44,161.65,Two year,PayPal,No
+CUST0390,50,Male,20,40.15,One year,Cash,No
+CUST0391,69,Female,24,84.08,One year,Cash,No
+CUST0392,38,Male,50,196.05,Two year,Bank transfer,No
+CUST0393,49,Male,49,162.92,One year,Credit card,No
+CUST0394,40,Female,51,109.51,Two year,Cash,No
+CUST0395,50,Female,32,81.16,One year,Bank transfer,No
+CUST0396,20,Male,41,176.98,Month-to-month,Credit card,No
+CUST0397,35,Male,36,118.07,Month-to-month,PayPal,No
+CUST0398,42,Female,58,156.52,Two year,Credit card,No
+CUST0399,59,Female,53,155.74,One year,Cash,No
+CUST0400,48,Male,34,23.23,One year,Cash,No
+CUST0401,20,Female,36,42.73,Month-to-month,Cash,Yes
+CUST0402,57,Male,2,138.73,Month-to-month,Cash,No
+CUST0403,63,Male,15,49.09,Two year,Cash,No
+CUST0404,41,Male,34,65.99,Month-to-month,Bank transfer,No
+CUST0405,67,Male,36,190.39,Two year,Cash,No
+CUST0406,49,Male,6,120.83,Month-to-month,Bank transfer,Yes
+CUST0407,64,Female,39,155.13,Month-to-month,PayPal,No
+CUST0408,39,Female,42,120.44,One year,Cash,Yes
+CUST0409,40,Female,51,119.45,Month-to-month,Cash,No
+CUST0410,19,Female,51,36.95,Month-to-month,Credit card,No
+CUST0411,44,Male,58,81.86,Two year,PayPal,No
+CUST0412,59,Male,54,70.84,Month-to-month,Cash,No
+CUST0413,19,Male,12,90.33,Two year,Cash,No
+CUST0414,43,Male,3,163.7,Month-to-month,PayPal,No
+CUST0415,34,Female,45,86.95,Month-to-month,Bank transfer,No
+CUST0416,57,Male,18,101.31,Two year,Cash,No
+CUST0417,50,Male,40,91.53,One year,Credit card,No
+CUST0418,26,Female,21,36.81,Two year,Cash,No
+CUST0419,60,Female,15,99.39,Two year,Credit card,Yes
+CUST0420,65,Female,33,55.21,Two year,Credit card,No
+CUST0421,56,Female,35,53.61,One year,Cash,No
+CUST0422,46,Male,26,36.93,Month-to-month,Cash,No
+CUST0423,59,Male,8,84.2,Two year,Credit card,Yes
+CUST0424,43,Female,36,156.35,Two year,PayPal,No
+CUST0425,52,Male,48,69.76,One year,PayPal,No
+CUST0426,67,Male,30,76.22,Two year,Cash,Yes
+CUST0427,42,Male,23,135.68,Month-to-month,Bank transfer,No
+CUST0428,41,Female,42,55.25,One year,PayPal,No
+CUST0429,30,Male,44,181.45,Month-to-month,Cash,No
+CUST0430,24,Female,14,113.63,Month-to-month,PayPal,No
+CUST0431,53,Male,14,100.57,One year,Bank transfer,No
+CUST0432,62,Male,2,120.41,Two year,Cash,Yes
+CUST0433,37,Male,55,49.89,Month-to-month,Bank transfer,No
+CUST0434,18,Female,37,130.43,Month-to-month,Cash,No
+CUST0435,25,Male,5,85.36,Month-to-month,Bank transfer,No
+CUST0436,63,Female,38,181.49,Month-to-month,PayPal,No
+CUST0437,33,Female,45,50.39,One year,PayPal,No
+CUST0438,31,Female,41,111.27,One year,Bank transfer,No
+CUST0439,29,Male,54,127.66,Month-to-month,Bank transfer,Yes
+CUST0440,68,Male,47,26.01,Two year,Bank transfer,No
+CUST0441,40,Male,14,85.46,Month-to-month,Cash,No
+CUST0442,32,Male,56,151.87,Two year,PayPal,No
+CUST0443,45,Female,39,167.67,Month-to-month,Cash,No
+CUST0444,51,Female,25,76.37,Two year,PayPal,Yes
+CUST0445,19,Female,20,163.75,Month-to-month,Credit card,No
+CUST0446,49,Male,2,194.2,Two year,Cash,No
+CUST0447,40,Female,39,174.24,Month-to-month,PayPal,No
+CUST0448,39,Male,6,41.18,Month-to-month,PayPal,No
+CUST0449,68,Female,17,153.15,Two year,Cash,No
+CUST0450,42,Male,59,77.54,One year,Cash,Yes
+CUST0451,39,Male,25,197.91,Two year,PayPal,No
+CUST0452,39,Female,57,107.36,One year,Cash,Yes
+CUST0453,66,Female,28,42.04,Month-to-month,Bank transfer,No
+CUST0454,69,Female,2,150.53,Two year,Cash,No
+CUST0455,59,Female,35,78.14,Two year,Cash,Yes
+CUST0456,23,Male,37,199.47,Two year,Cash,No
+CUST0457,32,Female,5,196.36,One year,PayPal,No
+CUST0458,60,Female,1,138.1,One year,Bank transfer,No
+CUST0459,54,Female,40,43.37,Month-to-month,Credit card,No
+CUST0460,50,Male,12,143.63,One year,Credit card,No
+CUST0461,25,Male,56,36.75,One year,Bank transfer,No
+CUST0462,61,Female,36,25.29,Month-to-month,Bank transfer,No
+CUST0463,61,Male,45,168.13,Two year,Bank transfer,Yes
+CUST0464,22,Female,23,57.76,Two year,PayPal,No
+CUST0465,56,Male,47,88.22,Month-to-month,Credit card,No
+CUST0466,21,Male,31,195.22,Two year,Bank transfer,No
+CUST0467,23,Male,11,80.63,One year,PayPal,No
+CUST0468,62,Male,10,73.37,Month-to-month,Credit card,Yes
+CUST0469,49,Female,3,185.28,Month-to-month,Cash,Yes
+CUST0470,69,Female,54,39.93,Month-to-month,PayPal,No
+CUST0471,47,Female,14,156.72,Two year,Credit card,No
+CUST0472,64,Male,16,197.85,Month-to-month,PayPal,Yes
+CUST0473,52,Female,10,182.23,Month-to-month,Credit card,No
+CUST0474,57,Female,29,137.3,Month-to-month,Credit card,No
+CUST0475,69,Female,10,76.53,Two year,Cash,No
+CUST0476,33,Male,12,65.78,One year,PayPal,No
+CUST0477,30,Male,30,167.47,Month-to-month,Bank transfer,Yes
+CUST0478,67,Male,41,178.37,One year,Cash,No
+CUST0479,59,Female,1,114.58,Two year,Cash,No
+CUST0480,47,Female,5,63.98,Two year,Credit card,No
+CUST0481,36,Female,20,40.33,Two year,Bank transfer,No
+CUST0482,34,Male,8,35.69,Two year,PayPal,No
+CUST0483,36,Male,43,149.43,One year,Bank transfer,No
+CUST0484,45,Female,12,95.62,Month-to-month,Bank transfer,Yes
+CUST0485,43,Male,1,182.96,Two year,Bank transfer,No
+CUST0486,54,Male,57,153.14,Two year,Bank transfer,No
+CUST0487,43,Male,54,54.43,One year,Bank transfer,Yes
+CUST0488,40,Male,20,130.48,One year,Credit card,No
+CUST0489,26,Female,28,98.39,Two year,Credit card,Yes
+CUST0490,29,Male,57,123.9,Month-to-month,Cash,No
+CUST0491,18,Male,43,152.85,Month-to-month,Credit card,No
+CUST0492,18,Male,37,165.12,Two year,Cash,No
+CUST0493,64,Male,47,171.87,One year,Cash,No
+CUST0494,51,Female,37,65.72,Two year,PayPal,No
+CUST0495,49,Female,12,25.6,Two year,Bank transfer,No
+CUST0496,65,Male,37,153.07,One year,Credit card,No
+CUST0497,42,Male,49,39.14,Two year,PayPal,No
+CUST0498,57,Male,49,76.69,Two year,Credit card,Yes
+CUST0499,62,Male,56,20.69,Two year,Cash,No
+CUST0500,18,Male,44,142.7,One year,Credit card,Yes
+CUST0501,33,Male,56,50.08,Month-to-month,Bank transfer,No
+CUST0502,56,Female,28,137.95,Month-to-month,Cash,No
+CUST0503,22,Male,47,198.51,One year,Cash,Yes
+CUST0504,39,Female,15,33.08,Month-to-month,PayPal,No
+CUST0505,46,Female,6,33.87,Two year,Bank transfer,No
+CUST0506,20,Male,44,81.27,Month-to-month,Cash,No
+CUST0507,29,Female,59,175.95,Two year,Bank transfer,Yes
+CUST0508,43,Female,20,58.8,Month-to-month,Credit card,No
+CUST0509,33,Female,50,84.87,One year,Bank transfer,No
+CUST0510,68,Female,14,32.33,Month-to-month,Cash,No
+CUST0511,54,Female,2,157.37,Month-to-month,PayPal,No
+CUST0512,39,Female,9,93.5,Month-to-month,Cash,No
+CUST0513,46,Male,37,156.66,One year,Bank transfer,Yes
+CUST0514,31,Female,20,182.65,Month-to-month,Bank transfer,No
+CUST0515,45,Female,26,61.9,One year,Cash,No
+CUST0516,22,Female,29,165.33,Two year,Bank transfer,No
+CUST0517,64,Male,1,30.64,Month-to-month,Credit card,No
+CUST0518,66,Female,55,181.79,One year,Cash,No
+CUST0519,47,Male,35,137.14,One year,PayPal,No
+CUST0520,63,Female,6,177.36,Month-to-month,Cash,No
+CUST0521,69,Male,37,20.03,Two year,Credit card,No
+CUST0522,22,Male,53,50.43,One year,Credit card,No
+CUST0523,29,Female,59,90.16,Month-to-month,Credit card,No
+CUST0524,33,Female,5,88.31,Two year,Credit card,No
+CUST0525,43,Male,33,60.81,One year,Credit card,No
+CUST0526,43,Female,49,88.69,One year,PayPal,No
+CUST0527,65,Male,51,43.19,Two year,Bank transfer,No
+CUST0528,38,Male,14,94.3,Two year,Credit card,No
+CUST0529,56,Male,12,164.42,Month-to-month,Credit card,No
+CUST0530,53,Male,42,106.23,Month-to-month,Cash,No
+CUST0531,50,Male,20,23.24,One year,PayPal,Yes
+CUST0532,47,Female,53,95.86,Two year,PayPal,Yes
+CUST0533,54,Male,50,24.89,Two year,Bank transfer,No
+CUST0534,40,Male,24,193.92,Two year,PayPal,No
+CUST0535,27,Female,59,42.94,One year,Cash,No
+CUST0536,22,Male,43,147.38,Two year,Cash,No
+CUST0537,53,Female,34,195.1,Two year,Bank transfer,No
+CUST0538,51,Female,25,168.69,One year,Cash,Yes
+CUST0539,69,Female,50,145.88,Month-to-month,Credit card,No
+CUST0540,48,Male,29,171.1,Month-to-month,Credit card,Yes
+CUST0541,27,Male,57,196.72,One year,Cash,Yes
+CUST0542,36,Male,39,131.84,Two year,Bank transfer,No
+CUST0543,49,Female,31,120.65,One year,PayPal,No
+CUST0544,18,Male,56,133.08,Month-to-month,Bank transfer,Yes
+CUST0545,22,Female,47,115.88,Month-to-month,PayPal,No
+CUST0546,62,Male,43,134.32,One year,Cash,No
+CUST0547,21,Female,50,100.97,One year,Cash,No
+CUST0548,33,Male,23,59.32,Month-to-month,Credit card,No
+CUST0549,41,Male,44,41.64,One year,PayPal,No
+CUST0550,33,Male,38,32.3,Month-to-month,Bank transfer,Yes
+CUST0551,19,Female,20,67.4,One year,Cash,No
+CUST0552,66,Female,23,28.3,One year,Bank transfer,Yes
+CUST0553,45,Male,45,122.09,One year,Credit card,Yes
+CUST0554,49,Male,52,71.09,Month-to-month,PayPal,No
+CUST0555,44,Female,16,168.42,One year,PayPal,No
+CUST0556,37,Female,50,33.36,Month-to-month,Cash,No
+CUST0557,41,Female,42,60.74,Month-to-month,PayPal,No
+CUST0558,29,Male,55,151.44,One year,Cash,No
+CUST0559,67,Female,8,127.79,One year,Credit card,Yes
+CUST0560,52,Male,50,31.61,Month-to-month,PayPal,Yes
+CUST0561,50,Female,21,177.9,Month-to-month,Cash,Yes
+CUST0562,50,Male,1,177.91,Two year,Bank transfer,Yes
+CUST0563,68,Female,55,79.47,Month-to-month,Cash,No
+CUST0564,60,Female,8,81.27,Two year,PayPal,No
+CUST0565,54,Female,29,198.03,Two year,Credit card,Yes
+CUST0566,29,Female,32,132.71,Two year,PayPal,No
+CUST0567,20,Female,38,115.64,One year,PayPal,No
+CUST0568,18,Male,5,170.87,One year,Cash,No
+CUST0569,50,Female,47,71.35,Month-to-month,Bank transfer,Yes
+CUST0570,57,Female,22,97.25,Two year,PayPal,Yes
+CUST0571,27,Female,47,68.2,One year,Bank transfer,Yes
+CUST0572,60,Male,34,162.05,One year,Cash,Yes
+CUST0573,61,Female,1,123.2,One year,Bank transfer,No
+CUST0574,46,Male,55,138.59,One year,Cash,No
+CUST0575,30,Female,55,65.42,One year,Credit card,No
+CUST0576,29,Female,26,59.64,Two year,Bank transfer,No
+CUST0577,48,Male,43,107.91,Two year,Bank transfer,No
+CUST0578,63,Female,10,152.76,Two year,Credit card,No
+CUST0579,19,Male,30,114.54,Two year,Bank transfer,Yes
+CUST0580,68,Male,50,25.88,Month-to-month,Credit card,No
+CUST0581,67,Female,18,176.34,Two year,PayPal,No
+CUST0582,52,Male,17,31.64,One year,Cash,Yes
+CUST0583,40,Female,26,192.05,Two year,Credit card,Yes
+CUST0584,34,Female,8,24.53,Month-to-month,Bank transfer,No
+CUST0585,43,Male,47,145.0,One year,Credit card,No
+CUST0586,25,Male,40,34.8,Two year,Bank transfer,No
+CUST0587,46,Male,49,183.92,Two year,PayPal,No
+CUST0588,43,Male,12,103.6,Two year,Credit card,No
+CUST0589,27,Female,27,44.75,One year,PayPal,Yes
+CUST0590,43,Female,8,81.35,One year,Cash,No
+CUST0591,51,Male,25,49.67,Month-to-month,Bank transfer,Yes
+CUST0592,68,Female,46,50.7,One year,Bank transfer,Yes
+CUST0593,58,Female,4,190.66,One year,PayPal,No
+CUST0594,24,Female,33,100.14,Two year,Cash,No
+CUST0595,21,Female,1,161.98,One year,Credit card,No
+CUST0596,67,Male,19,135.13,Two year,Credit card,No
+CUST0597,62,Male,31,141.76,Two year,Bank transfer,No
+CUST0598,28,Female,16,43.7,One year,PayPal,No
+CUST0599,46,Male,14,62.15,Month-to-month,PayPal,Yes
+CUST0600,53,Male,53,161.62,Month-to-month,Credit card,Yes
+CUST0601,42,Male,48,194.74,One year,Cash,No
+CUST0602,38,Female,5,67.28,Month-to-month,Cash,No
+CUST0603,53,Female,41,68.88,Two year,Credit card,No
+CUST0604,27,Female,26,105.12,Two year,Credit card,No
+CUST0605,54,Male,28,197.09,One year,PayPal,No
+CUST0606,26,Female,2,68.41,Month-to-month,Cash,Yes
+CUST0607,41,Female,50,93.25,Month-to-month,Credit card,No
+CUST0608,52,Male,6,180.47,Two year,Credit card,No
+CUST0609,66,Female,9,20.53,One year,Bank transfer,No
+CUST0610,52,Female,33,27.16,Month-to-month,Credit card,No
+CUST0611,65,Male,41,128.73,One year,Credit card,No
+CUST0612,53,Male,25,183.33,Month-to-month,Cash,No
+CUST0613,35,Male,48,62.99,Two year,PayPal,No
+CUST0614,66,Female,13,104.54,Two year,Cash,No
+CUST0615,56,Female,9,101.08,One year,PayPal,No
+CUST0616,49,Female,53,105.13,Two year,Bank transfer,No
+CUST0617,41,Male,13,132.05,Month-to-month,Credit card,No
+CUST0618,40,Male,31,104.55,Two year,Bank transfer,Yes
+CUST0619,49,Female,41,100.54,One year,PayPal,No
+CUST0620,54,Female,11,105.37,One year,Cash,No
+CUST0621,29,Male,4,126.36,One year,Cash,No
+CUST0622,66,Male,34,116.66,Month-to-month,Bank transfer,No
+CUST0623,30,Male,38,173.74,Month-to-month,PayPal,No
+CUST0624,40,Male,46,28.91,Month-to-month,Bank transfer,No
+CUST0625,42,Female,4,170.0,Month-to-month,Bank transfer,No
+CUST0626,52,Male,38,171.91,Month-to-month,Credit card,No
+CUST0627,58,Female,19,71.28,Two year,Bank transfer,Yes
+CUST0628,47,Female,6,103.31,Month-to-month,Credit card,No
+CUST0629,34,Female,34,98.94,Month-to-month,Credit card,Yes
+CUST0630,66,Male,18,59.33,Two year,Cash,No
+CUST0631,37,Male,13,91.42,Month-to-month,Credit card,No
+CUST0632,65,Male,41,27.99,One year,Credit card,No
+CUST0633,42,Male,23,70.01,Month-to-month,Cash,No
+CUST0634,39,Female,19,167.0,Month-to-month,Bank transfer,No
+CUST0635,30,Male,45,71.22,One year,PayPal,Yes
+CUST0636,36,Male,11,167.28,One year,PayPal,No
+CUST0637,66,Female,1,115.69,One year,PayPal,No
+CUST0638,53,Male,24,178.38,One year,Bank transfer,Yes
+CUST0639,29,Female,54,123.46,Month-to-month,Credit card,Yes
+CUST0640,58,Female,7,25.34,One year,PayPal,No
+CUST0641,36,Female,25,141.58,One year,Bank transfer,No
+CUST0642,29,Female,21,28.07,Two year,Credit card,No
+CUST0643,26,Female,15,101.11,One year,Cash,No
+CUST0644,24,Female,1,187.3,One year,PayPal,No
+CUST0645,45,Female,12,49.74,Two year,Credit card,No
+CUST0646,31,Female,58,90.18,Two year,PayPal,No
+CUST0647,48,Male,7,151.37,Month-to-month,PayPal,No
+CUST0648,69,Male,15,178.81,Two year,PayPal,No
+CUST0649,36,Male,21,140.77,Month-to-month,Credit card,No
+CUST0650,64,Male,19,66.47,Two year,Bank transfer,No
+CUST0651,33,Female,29,141.43,Two year,Credit card,No
+CUST0652,22,Male,25,73.41,Month-to-month,PayPal,Yes
+CUST0653,52,Female,33,149.32,Two year,Credit card,No
+CUST0654,29,Male,49,191.73,Month-to-month,Cash,No
+CUST0655,42,Male,32,149.85,Two year,Bank transfer,No
+CUST0656,69,Male,49,175.32,One year,Credit card,No
+CUST0657,38,Female,35,20.38,Two year,Cash,No
+CUST0658,53,Male,44,149.16,Month-to-month,Bank transfer,Yes
+CUST0659,40,Female,38,169.33,Two year,Cash,No
+CUST0660,33,Female,26,27.3,Month-to-month,Bank transfer,No
+CUST0661,56,Male,11,176.89,Month-to-month,Credit card,No
+CUST0662,62,Male,35,66.2,One year,Cash,No
+CUST0663,59,Male,8,139.75,One year,PayPal,No
+CUST0664,56,Female,46,164.06,Month-to-month,Cash,No
+CUST0665,31,Male,14,139.28,Two year,Bank transfer,No
+CUST0666,48,Female,10,36.61,Month-to-month,Credit card,No
+CUST0667,22,Female,2,127.34,Month-to-month,Bank transfer,No
+CUST0668,52,Male,46,118.93,Two year,Cash,No
+CUST0669,40,Male,9,182.06,Two year,Cash,Yes
+CUST0670,46,Female,3,92.76,Two year,PayPal,No
+CUST0671,60,Female,21,77.79,Two year,Credit card,No
+CUST0672,28,Female,26,154.97,Month-to-month,Credit card,No
+CUST0673,35,Male,8,94.28,Month-to-month,Cash,No
+CUST0674,64,Female,48,136.3,One year,Credit card,No
+CUST0675,29,Male,2,136.36,Month-to-month,PayPal,Yes
+CUST0676,26,Female,6,179.85,Two year,Bank transfer,No
+CUST0677,27,Female,28,127.76,One year,Credit card,No
+CUST0678,61,Male,53,110.39,Two year,Cash,No
+CUST0679,34,Female,29,45.0,Month-to-month,Bank transfer,Yes
+CUST0680,55,Male,26,40.83,One year,Bank transfer,No
+CUST0681,24,Male,25,47.78,Two year,PayPal,No
+CUST0682,63,Female,12,50.93,One year,Cash,Yes
+CUST0683,30,Male,5,134.82,One year,Credit card,No
+CUST0684,57,Male,34,153.38,Month-to-month,Cash,Yes
+CUST0685,59,Female,48,115.4,Two year,Bank transfer,No
+CUST0686,26,Male,37,169.22,One year,Cash,No
+CUST0687,67,Male,15,198.43,One year,Credit card,No
+CUST0688,44,Male,44,167.6,Two year,Credit card,No
+CUST0689,19,Female,36,145.08,One year,PayPal,No
+CUST0690,22,Male,15,115.85,One year,Credit card,Yes
+CUST0691,46,Female,43,100.79,One year,Credit card,Yes
+CUST0692,54,Female,48,35.19,Two year,Cash,No
+CUST0693,55,Male,23,91.89,Two year,Cash,No
+CUST0694,36,Male,6,183.82,Two year,Bank transfer,No
+CUST0695,25,Male,46,165.44,Two year,PayPal,No
+CUST0696,65,Female,50,58.89,Month-to-month,Cash,No
+CUST0697,62,Male,44,103.99,One year,Credit card,No
+CUST0698,18,Male,59,167.01,Two year,Bank transfer,No
+CUST0699,39,Male,43,32.13,One year,Cash,No
+CUST0700,69,Male,45,89.73,One year,PayPal,No
+CUST0701,34,Male,21,173.33,Month-to-month,PayPal,Yes
+CUST0702,24,Female,23,92.7,Two year,Bank transfer,No
+CUST0703,42,Female,43,33.97,Two year,Bank transfer,Yes
+CUST0704,62,Male,55,117.66,One year,Bank transfer,No
+CUST0705,21,Male,16,175.11,Two year,Bank transfer,No
+CUST0706,53,Male,47,126.25,One year,Bank transfer,No
+CUST0707,23,Male,53,60.73,One year,Credit card,No
+CUST0708,48,Female,15,89.16,Month-to-month,Credit card,No
+CUST0709,36,Male,25,101.02,Month-to-month,Cash,No
+CUST0710,61,Female,36,124.27,Month-to-month,PayPal,Yes
+CUST0711,56,Female,11,156.68,One year,Credit card,Yes
+CUST0712,44,Male,51,37.8,Two year,Credit card,Yes
+CUST0713,27,Female,15,180.14,Month-to-month,Credit card,No
+CUST0714,43,Female,4,22.22,Two year,Cash,No
+CUST0715,36,Female,21,86.61,Month-to-month,Bank transfer,No
+CUST0716,56,Female,13,24.94,Month-to-month,Cash,No
+CUST0717,20,Male,22,90.74,One year,PayPal,No
+CUST0718,62,Male,19,114.65,Month-to-month,PayPal,Yes
+CUST0719,30,Female,34,112.1,Month-to-month,PayPal,No
+CUST0720,67,Male,14,49.81,One year,PayPal,No
+CUST0721,45,Male,4,136.23,Two year,Credit card,No
+CUST0722,37,Male,48,28.06,Month-to-month,Credit card,No
+CUST0723,45,Male,53,157.14,One year,Cash,Yes
+CUST0724,25,Male,52,190.4,Month-to-month,Bank transfer,Yes
+CUST0725,58,Female,46,81.16,One year,PayPal,No
+CUST0726,56,Male,27,113.1,Two year,Cash,No
+CUST0727,18,Male,29,88.2,Two year,Credit card,No
+CUST0728,20,Male,47,21.21,One year,Credit card,No
+CUST0729,30,Male,28,89.46,One year,Bank transfer,No
+CUST0730,45,Female,35,162.51,One year,Bank transfer,No
+CUST0731,66,Female,8,127.28,Two year,Bank transfer,No
+CUST0732,42,Female,16,38.23,Month-to-month,Cash,No
+CUST0733,50,Female,42,172.49,Two year,Credit card,No
+CUST0734,55,Male,36,115.6,One year,Credit card,No
+CUST0735,23,Female,30,171.51,One year,Bank transfer,Yes
+CUST0736,61,Male,18,124.44,Two year,PayPal,No
+CUST0737,62,Male,2,120.74,One year,Bank transfer,No
+CUST0738,49,Male,49,38.95,Two year,Cash,No
+CUST0739,62,Male,13,50.12,One year,Bank transfer,No
+CUST0740,64,Male,4,194.96,Month-to-month,Bank transfer,Yes
+CUST0741,38,Female,26,61.13,Month-to-month,Cash,No
+CUST0742,33,Female,25,195.94,One year,Bank transfer,No
+CUST0743,38,Female,30,115.74,Two year,Credit card,No
+CUST0744,28,Female,11,44.44,Month-to-month,PayPal,No
+CUST0745,54,Male,7,37.87,Two year,Bank transfer,No
+CUST0746,53,Female,31,57.6,One year,Cash,No
+CUST0747,52,Male,44,186.61,Two year,PayPal,No
+CUST0748,36,Female,10,94.55,Month-to-month,Cash,No
+CUST0749,37,Male,39,91.18,Two year,PayPal,No
+CUST0750,35,Male,13,76.38,Two year,PayPal,No
+CUST0751,64,Female,31,46.47,One year,Bank transfer,No
+CUST0752,58,Male,7,107.81,One year,Credit card,No
+CUST0753,66,Male,56,43.41,One year,Bank transfer,No
+CUST0754,31,Female,49,170.39,Month-to-month,Cash,No
+CUST0755,32,Male,42,86.67,Month-to-month,Cash,No
+CUST0756,48,Female,42,87.46,One year,PayPal,No
+CUST0757,18,Female,56,105.32,One year,PayPal,No
+CUST0758,20,Female,36,99.94,Month-to-month,Credit card,No
+CUST0759,33,Male,20,199.07,Month-to-month,Bank transfer,Yes
+CUST0760,40,Male,4,118.17,Month-to-month,Cash,No
+CUST0761,28,Male,54,35.88,Month-to-month,PayPal,No
+CUST0762,29,Female,7,129.24,One year,Credit card,No
+CUST0763,27,Male,54,47.29,Month-to-month,Cash,No
+CUST0764,49,Female,1,25.57,One year,PayPal,No
+CUST0765,33,Female,44,194.73,Two year,Cash,No
+CUST0766,25,Male,56,159.24,Two year,Credit card,No
+CUST0767,55,Female,45,196.42,Month-to-month,Credit card,No
+CUST0768,29,Male,42,106.02,Two year,Cash,No
+CUST0769,41,Male,47,115.81,Two year,Bank transfer,No
+CUST0770,45,Male,59,50.3,Two year,Cash,No
+CUST0771,25,Male,13,64.44,Month-to-month,PayPal,No
+CUST0772,45,Male,55,170.94,Month-to-month,Bank transfer,Yes
+CUST0773,53,Female,22,84.11,Two year,PayPal,No
+CUST0774,43,Female,54,168.83,One year,Cash,No
+CUST0775,25,Female,21,147.62,Two year,Bank transfer,No
+CUST0776,67,Male,22,51.89,Month-to-month,PayPal,No
+CUST0777,45,Male,28,111.34,Month-to-month,Cash,No
+CUST0778,45,Male,9,141.93,Month-to-month,Cash,No
+CUST0779,54,Female,26,62.31,Two year,Bank transfer,Yes
+CUST0780,58,Male,9,169.52,One year,Cash,No
+CUST0781,53,Female,15,118.07,Month-to-month,Credit card,No
+CUST0782,44,Female,10,49.74,Month-to-month,PayPal,No
+CUST0783,34,Male,24,124.94,Two year,PayPal,Yes
+CUST0784,26,Male,58,199.95,One year,Cash,No
+CUST0785,50,Female,57,47.09,Two year,Cash,Yes
+CUST0786,37,Male,42,167.02,Month-to-month,Credit card,No
+CUST0787,30,Female,8,57.32,One year,Bank transfer,No
+CUST0788,45,Male,24,160.83,One year,Cash,No
+CUST0789,65,Male,16,152.22,Month-to-month,Cash,No
+CUST0790,46,Female,49,74.09,One year,Cash,No
+CUST0791,30,Male,26,78.65,One year,Cash,No
+CUST0792,63,Female,27,162.65,Two year,PayPal,No
+CUST0793,52,Male,37,103.06,Month-to-month,Cash,No
+CUST0794,23,Female,4,151.55,Month-to-month,PayPal,Yes
+CUST0795,35,Female,50,46.64,Month-to-month,Cash,No
+CUST0796,68,Male,24,173.46,Month-to-month,Bank transfer,No
+CUST0797,22,Female,19,147.96,Month-to-month,Credit card,No
+CUST0798,64,Male,36,183.25,One year,Bank transfer,No
+CUST0799,42,Male,39,43.83,Two year,Cash,No
+CUST0800,19,Male,10,126.74,Month-to-month,Cash,No
+CUST0801,27,Female,25,127.84,Two year,Cash,No
+CUST0802,47,Female,18,83.62,Two year,Bank transfer,Yes
+CUST0803,67,Male,19,102.52,One year,Cash,No
+CUST0804,62,Male,36,26.84,Month-to-month,Bank transfer,No
+CUST0805,22,Female,10,154.25,One year,PayPal,No
+CUST0806,50,Male,33,118.88,Month-to-month,Credit card,Yes
+CUST0807,18,Male,55,30.39,One year,Credit card,No
+CUST0808,35,Female,50,142.54,Two year,Bank transfer,No
+CUST0809,49,Male,5,104.02,Month-to-month,PayPal,No
+CUST0810,64,Female,47,26.2,Two year,Bank transfer,No
+CUST0811,66,Male,49,194.53,Two year,PayPal,No
+CUST0812,28,Female,35,190.84,One year,Cash,No
+CUST0813,38,Male,44,112.32,Month-to-month,PayPal,No
+CUST0814,43,Male,34,36.86,Two year,PayPal,No
+CUST0815,42,Female,33,155.83,One year,PayPal,Yes
+CUST0816,39,Male,55,108.55,Month-to-month,Credit card,No
+CUST0817,44,Female,21,74.44,Month-to-month,PayPal,No
+CUST0818,66,Male,17,108.46,Two year,Cash,No
+CUST0819,30,Female,22,114.04,Month-to-month,Cash,No
+CUST0820,50,Female,48,121.29,Two year,Cash,No
+CUST0821,51,Female,37,99.42,Month-to-month,PayPal,Yes
+CUST0822,58,Female,15,129.04,One year,Bank transfer,Yes
+CUST0823,52,Male,35,185.37,Two year,Bank transfer,No
+CUST0824,18,Male,28,85.21,Two year,Cash,No
+CUST0825,38,Female,7,150.63,Month-to-month,Credit card,No
+CUST0826,65,Female,32,181.0,Month-to-month,Bank transfer,No
+CUST0827,23,Female,11,102.08,Two year,PayPal,Yes
+CUST0828,45,Male,10,99.82,Month-to-month,Bank transfer,No
+CUST0829,34,Male,9,128.38,One year,Cash,No
+CUST0830,22,Male,14,126.45,Month-to-month,Credit card,Yes
+CUST0831,48,Male,13,165.19,One year,Bank transfer,No
+CUST0832,22,Female,57,105.77,One year,Bank transfer,No
+CUST0833,55,Female,25,199.3,One year,Cash,No
+CUST0834,20,Female,2,30.7,One year,Credit card,No
+CUST0835,40,Male,35,20.57,One year,Credit card,No
+CUST0836,54,Male,7,135.24,Month-to-month,Cash,No
+CUST0837,54,Male,21,73.72,One year,PayPal,No
+CUST0838,27,Female,18,63.27,Month-to-month,Bank transfer,Yes
+CUST0839,27,Female,3,76.14,One year,PayPal,No
+CUST0840,36,Male,42,66.09,Two year,Bank transfer,No
+CUST0841,34,Female,54,25.54,One year,Bank transfer,No
+CUST0842,38,Male,39,194.88,Two year,PayPal,No
+CUST0843,31,Male,41,59.73,One year,Cash,No
+CUST0844,26,Female,49,152.13,One year,Cash,No
+CUST0845,63,Male,11,157.27,One year,Bank transfer,Yes
+CUST0846,18,Female,39,187.27,Two year,Cash,No
+CUST0847,68,Male,24,25.5,Two year,Bank transfer,No
+CUST0848,62,Female,46,176.97,One year,Cash,Yes
+CUST0849,30,Female,19,114.9,Month-to-month,Bank transfer,No
+CUST0850,21,Female,4,133.86,One year,Cash,No
+CUST0851,18,Male,26,136.0,Two year,Credit card,No
+CUST0852,66,Male,38,167.56,One year,PayPal,No
+CUST0853,57,Female,42,80.01,Two year,Credit card,No
+CUST0854,49,Female,32,151.95,Two year,PayPal,No
+CUST0855,51,Male,39,115.14,Two year,PayPal,No
+CUST0856,45,Male,45,162.81,One year,Bank transfer,No
+CUST0857,48,Male,46,198.3,Two year,PayPal,No
+CUST0858,25,Female,36,56.12,Two year,Credit card,Yes
+CUST0859,56,Male,40,199.04,One year,Credit card,Yes
+CUST0860,43,Male,37,36.17,Two year,Cash,No
+CUST0861,51,Female,33,20.42,One year,Credit card,No
+CUST0862,20,Male,36,27.95,Two year,Cash,No
+CUST0863,67,Male,3,81.52,Month-to-month,PayPal,No
+CUST0864,29,Male,9,133.92,Month-to-month,Credit card,No
+CUST0865,18,Female,8,32.43,Two year,PayPal,No
+CUST0866,61,Female,33,21.02,Month-to-month,Credit card,No
+CUST0867,22,Female,59,188.68,One year,Credit card,No
+CUST0868,47,Female,6,167.95,Month-to-month,Cash,No
+CUST0869,47,Female,41,165.65,Two year,PayPal,No
+CUST0870,34,Female,39,179.2,Two year,Credit card,Yes
+CUST0871,65,Female,4,146.01,One year,Bank transfer,No
+CUST0872,64,Male,13,38.79,Two year,PayPal,No
+CUST0873,40,Male,49,91.84,One year,PayPal,Yes
+CUST0874,32,Female,2,150.17,Month-to-month,PayPal,No
+CUST0875,54,Male,5,70.46,Month-to-month,Cash,No
+CUST0876,38,Male,44,143.73,One year,Bank transfer,No
+CUST0877,31,Female,27,24.41,One year,PayPal,No
+CUST0878,19,Male,32,75.1,Two year,Credit card,No
+CUST0879,28,Male,21,118.84,Month-to-month,Credit card,Yes
+CUST0880,68,Male,8,133.78,One year,Cash,No
+CUST0881,56,Male,38,123.87,Month-to-month,Credit card,No
+CUST0882,55,Male,8,145.6,One year,PayPal,No
+CUST0883,51,Female,50,21.1,Month-to-month,Credit card,No
+CUST0884,55,Female,3,38.17,Two year,PayPal,No
+CUST0885,67,Female,54,176.41,Month-to-month,Credit card,No
+CUST0886,51,Male,44,142.71,Month-to-month,Bank transfer,No
+CUST0887,35,Female,58,40.33,Month-to-month,Cash,No
+CUST0888,47,Male,3,171.57,Month-to-month,Cash,No
+CUST0889,32,Male,22,63.6,Month-to-month,Bank transfer,No
+CUST0890,44,Male,6,106.09,Two year,Bank transfer,No
+CUST0891,68,Male,2,46.14,One year,Cash,No
+CUST0892,51,Female,23,147.82,Month-to-month,Bank transfer,No
+CUST0893,69,Female,44,140.03,Two year,PayPal,Yes
+CUST0894,55,Male,2,58.0,Month-to-month,Credit card,No
+CUST0895,50,Female,38,175.41,Month-to-month,Cash,No
+CUST0896,41,Male,17,92.24,One year,Bank transfer,No
+CUST0897,32,Female,35,72.65,Month-to-month,PayPal,Yes
+CUST0898,47,Female,34,47.42,Two year,Cash,No
+CUST0899,59,Male,23,67.91,Two year,Bank transfer,No
+CUST0900,68,Female,30,23.96,One year,Cash,No
+CUST0901,34,Male,52,124.99,Month-to-month,Bank transfer,Yes
+CUST0902,22,Female,8,171.6,Two year,Cash,Yes
+CUST0903,46,Male,22,118.82,Month-to-month,PayPal,Yes
+CUST0904,21,Male,44,59.47,Month-to-month,PayPal,No
+CUST0905,27,Female,58,26.06,Month-to-month,Credit card,No
+CUST0906,34,Female,36,58.63,One year,Cash,No
+CUST0907,27,Male,5,94.9,Month-to-month,Credit card,Yes
+CUST0908,34,Female,13,156.73,Two year,Cash,No
+CUST0909,37,Female,29,53.81,Month-to-month,Bank transfer,No
+CUST0910,41,Male,31,149.56,Two year,Bank transfer,No
+CUST0911,22,Male,47,176.05,Month-to-month,Credit card,No
+CUST0912,51,Female,57,101.71,Two year,Cash,No
+CUST0913,23,Male,55,167.86,Two year,Credit card,Yes
+CUST0914,19,Male,16,119.84,Month-to-month,PayPal,Yes
+CUST0915,30,Male,42,134.68,Month-to-month,Credit card,No
+CUST0916,60,Female,30,114.73,Two year,Credit card,No
+CUST0917,60,Female,57,103.37,One year,Bank transfer,Yes
+CUST0918,65,Male,55,62.24,Month-to-month,Credit card,Yes
+CUST0919,28,Female,16,74.57,One year,Cash,Yes
+CUST0920,68,Male,12,72.19,Month-to-month,Bank transfer,No
+CUST0921,64,Female,17,121.39,Month-to-month,Credit card,No
+CUST0922,40,Male,16,41.59,Month-to-month,PayPal,No
+CUST0923,33,Male,12,185.02,Month-to-month,Credit card,No
+CUST0924,48,Female,8,149.72,One year,Credit card,No
+CUST0925,28,Male,20,92.26,Month-to-month,Credit card,No
+CUST0926,33,Female,3,48.55,Two year,Bank transfer,No
+CUST0927,25,Female,16,178.76,Two year,Cash,No
+CUST0928,21,Male,30,168.28,One year,PayPal,Yes
+CUST0929,57,Male,45,149.91,Month-to-month,Credit card,No
+CUST0930,21,Female,23,68.88,Two year,Cash,No
+CUST0931,42,Male,28,92.44,One year,Cash,No
+CUST0932,20,Male,51,38.49,Month-to-month,Bank transfer,No
+CUST0933,49,Male,40,54.03,Two year,PayPal,No
+CUST0934,20,Male,54,160.94,Two year,Bank transfer,No
+CUST0935,44,Male,5,148.71,One year,Cash,No
+CUST0936,46,Female,20,126.83,Month-to-month,Cash,No
+CUST0937,49,Female,40,181.23,Month-to-month,Cash,No
+CUST0938,67,Male,56,124.99,Two year,Bank transfer,No
+CUST0939,68,Male,44,104.05,Two year,PayPal,Yes
+CUST0940,36,Male,1,81.27,Two year,Credit card,No
+CUST0941,38,Female,57,189.28,Month-to-month,Bank transfer,No
+CUST0942,22,Male,30,34.89,One year,Cash,Yes
+CUST0943,35,Female,21,187.56,One year,Bank transfer,No
+CUST0944,45,Female,20,168.81,Month-to-month,Cash,No
+CUST0945,59,Female,6,43.39,One year,Credit card,No
+CUST0946,39,Male,22,121.7,Two year,Credit card,No
+CUST0947,38,Female,18,175.98,One year,PayPal,No
+CUST0948,23,Male,8,122.93,One year,Cash,Yes
+CUST0949,18,Female,39,183.3,One year,PayPal,No
+CUST0950,22,Male,32,189.74,Two year,PayPal,No
+CUST0951,58,Female,33,96.03,Month-to-month,Credit card,No
+CUST0952,29,Male,53,87.92,Two year,Bank transfer,Yes
+CUST0953,43,Female,16,188.54,Month-to-month,Bank transfer,Yes
+CUST0954,63,Male,12,141.53,Month-to-month,PayPal,No
+CUST0955,51,Male,38,40.88,Month-to-month,Credit card,No
+CUST0956,66,Male,52,27.61,One year,Cash,No
+CUST0957,31,Male,34,121.63,One year,Bank transfer,No
+CUST0958,43,Female,14,187.43,Month-to-month,PayPal,No
+CUST0959,62,Female,36,171.96,Month-to-month,Bank transfer,No
+CUST0960,44,Male,33,141.65,One year,Bank transfer,No
+CUST0961,26,Female,23,45.04,Two year,Cash,No
+CUST0962,43,Male,50,65.76,Month-to-month,Credit card,Yes
+CUST0963,64,Male,45,177.59,Two year,Cash,No
+CUST0964,39,Female,2,52.91,One year,Credit card,Yes
+CUST0965,64,Male,41,70.12,Month-to-month,Bank transfer,No
+CUST0966,47,Male,21,43.33,Two year,PayPal,No
+CUST0967,60,Female,2,141.7,Two year,Cash,No
+CUST0968,65,Male,27,189.92,Two year,Credit card,Yes
+CUST0969,34,Male,57,68.41,One year,Bank transfer,No
+CUST0970,43,Male,9,105.57,One year,Credit card,Yes
+CUST0971,53,Male,1,134.18,Two year,Credit card,No
+CUST0972,18,Female,11,199.9,Two year,Credit card,Yes
+CUST0973,25,Female,3,38.87,One year,Bank transfer,Yes
+CUST0974,66,Female,52,109.74,Two year,PayPal,No
+CUST0975,52,Male,23,89.32,Two year,PayPal,Yes
+CUST0976,69,Male,26,175.85,One year,PayPal,No
+CUST0977,32,Female,4,105.67,Two year,Credit card,No
+CUST0978,64,Male,18,39.98,Two year,Bank transfer,Yes
+CUST0979,39,Male,55,134.2,Two year,Credit card,No
+CUST0980,31,Male,6,158.74,One year,PayPal,No
+CUST0981,43,Male,35,20.52,Two year,PayPal,No
+CUST0982,45,Female,22,174.61,One year,Bank transfer,Yes
+CUST0983,40,Female,43,53.48,One year,Credit card,No
+CUST0984,31,Female,15,119.37,Month-to-month,Cash,Yes
+CUST0985,41,Male,22,94.84,Month-to-month,Cash,No
+CUST0986,19,Female,37,149.54,Two year,PayPal,No
+CUST0987,62,Female,52,86.81,One year,Bank transfer,No
+CUST0988,43,Male,42,176.56,Month-to-month,Credit card,No
+CUST0989,31,Male,12,151.49,Two year,Credit card,No
+CUST0990,68,Female,47,136.59,Month-to-month,PayPal,No
+CUST0991,24,Female,49,163.32,Month-to-month,PayPal,Yes
+CUST0992,20,Female,42,155.72,One year,Credit card,No
+CUST0993,64,Female,38,26.47,One year,Credit card,No
+CUST0994,40,Male,18,91.05,Month-to-month,PayPal,No
+CUST0995,63,Female,45,187.55,Month-to-month,Credit card,No
+CUST0996,60,Female,35,42.63,One year,Cash,No
+CUST0997,64,Male,30,152.68,Two year,PayPal,Yes
+CUST0998,62,Female,24,195.43,One year,Credit card,No
+CUST0999,35,Male,42,29.4,Month-to-month,PayPal,Yes
+CUST1000,55,Male,30,142.79,Two year,Bank transfer,No
